@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css"; // Make sure to import your custom CSS file
+import "./App.css"; // You can create an App.css file for custom styles
 
 function App() {
   const [loginData, setLoginData] = useState({ email: "", password: "" });
